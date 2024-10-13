@@ -8,20 +8,16 @@
 	<link rel="stylesheet" href="./materials/main.css">
 </head>
 <body>
-	<div class="nav" style="">
 
-		<div class="logo">
-			<img src="./materials/images/logo2.png" alt="logo2" style="top: 17px; position: absolute;">
-		</div>
-		<div class="right-links">
-			<a href="#" class="home-link">Change Profile</a>
-			<a href="logout.php"><input type="submit" class="btn" value="Log Out" required></a>
-		</div>
+	<div class="nav">
+        <div class="logo">
+            <img src="./materials/images/logo2.png" alt="logo2" >
+        </div>
+    </div>
 		
-	</div>
 
 </div>
-	<div class="container" style="">
+	<div class="container">
 
 		<form class="form " action="" id="Login" method="post">
 			<h1 class="form__title">Login</h1>

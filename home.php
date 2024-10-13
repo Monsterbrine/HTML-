@@ -8,17 +8,17 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="nav">
 
+    <div class="nav">
         <div class="logo">
-            <img src="./materials/images/logo2.png" alt="logo2" style="top: 17px; position: absolute;">
+            <img src="./materials/images/logo2.png" alt="logo2" >
         </div>
         <div class="right-links">
-            <a href="./edit.php" class="edit">Change Profile</a>
+            <a href="./home.php" class="home-link">Return to Home</a> 
             <a href="logout.php"><input type="submit" class="btn" value="Log Out" required></a>
         </div>
-
     </div>
+
 
     <main>
 
