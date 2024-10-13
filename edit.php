@@ -8,20 +8,41 @@
     <link rel="stylesheet" href="./materials/main.css">
     <title>Change Profile</title>
 </head>
-<style>
-    .nav{
-	display: flex;
-    top: 35%;
-    left: 43%;
-    position: absolute;
-    justify-content: center;
-    }
 
+<style>
+    .box{
+        background: #fdfdfd;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 25px;
+        border-radius: 20px;
+        box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+    }
+    .form__input{
+	    display: block;
+	    width: 100%;
+	    padding: 0.75rem;
+	    box-sizing: border-box;
+	    border-radius: var(--border-radius);
+	    border: 1px solid lightgrey;
+	    outline: none;
+	    background: rgb(240, 240, 240);
+	    transition: background 0.2s, border-color 0.2s;
+    }
+    .nav{
+    background:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height:60px;
+    z-index:100;
+    }
 </style>
 
 <body>
 
-    <div class="header">
+    <div class="nav">
         <div class="logo">
             <img src="./materials/images/logo2.png" alt="logo2" style="top: 17px; position: absolute;">
         </div>
@@ -31,27 +52,24 @@
         </div>
     </div>
 
-    <div class="nav">
-        <div class="container">
-
-            <div class="box form-box">
-                <form action="" method="post">
-                    <div class="field input">
+    <div class="container">
+        <div class="box form-box">
+            <form action="" method="post">
+                <div class="field input">
                     <h1 class="form__title">Edit Account</h1>
-			    <div class="form__input-group">
-			    	<input class="form__input " type="text" id="name" required autofocus placeholder="Change Username">
-			    	<div class="form__input-error-message form__input--error"></div>
+			        <div class="form__input-group">
+				        <input class="form__input " type="text" id="name" required autofocus placeholder="Change Username">
+			        <div class="form__input-error-message form__input--error"></div>
 			    </div>
-			    <div class="form__input-group">
-			    	<input class="form__input" type="email" id ="Email" required autofocus placeholder="Change Email">
-			    </div>
+			        <div class="form__input-group">
+			            <input class="form__input" type="email" id ="Email" required autofocus placeholder="Change Email">
+			        </div>
 			    <div class="form__input-group">
 				    <input class="form__input " type="password" id="Password" required autofocus placeholder="Change Password" >
 				    <div class="form__input-error-message form__input--error"></div>
 			    </div>
 			    <button class="form__button" type="submit">Create</button>    
-                </form>
-            </div>
+            </form>
         </div>
     </div>
 </body>
