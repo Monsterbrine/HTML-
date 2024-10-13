@@ -1,0 +1,19 @@
+body{
+	--color-primary: pink;
+	--color-primary-dark: rgb(219, 178, 185);
+	--color-secondary: violet;
+	--color-error: red;
+	--color-success: green;
+	--border-radius: 4px;
+	
+    background: var(--color-primary);
+    font: 500 1rem "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;	
+}
+
+.nav{
+	display: flex;
+    top: 35%;
+    left: 43%;
+    position: absolute;
+    justify-content: center;
+}
