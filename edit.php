@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="./materials/main.css">
     <title>Change Profile</title>
 </head>
+<style>
+    .nav{
+	display: flex;
+    top: 35%;
+    left: 43%;
+    position: absolute;
+    justify-content: center;
+    }
+
+</style>
 
 <body>
 
